@@ -4,9 +4,9 @@ class Dog
  
   @@all = []
   
- def initialize(dog_name)
-   @dog_name = dog_name
-   @@all.self << dog_name 
+ def initialize(name)
+   @dog_name = name
+   @@all.self << name 
   
   
   
